@@ -1,6 +1,3 @@
--- write a script that imports the database dump from hbtn_0d_tvshows
-SOURCE /Users/Jona/Downloads/hbtn_0d_tvshows.sql.txt;
-
 -- write a script that lists all genres from hbtn_0d_tvshows and displays the number of shows linked to each
 SELECT tv_genres.name AS genre, COUNT(*) AS number_of_shows
 FROM tv_genres
